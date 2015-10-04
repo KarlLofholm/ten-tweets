@@ -39,7 +39,6 @@ body {
 //
 .twitter__search {
   background: #55acee;
-  padding: 100px 0;
   position: fixed;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
   border-bottom: 1px solid #5DB1FF;
@@ -51,7 +50,7 @@ body {
 }
 .start-search .twitter__search {
   position: absolute;
-  height: 400px;
+  height: 340px;
 }
 // twitter__search-container
 .twitter__search-container {
@@ -156,7 +155,7 @@ body {
 // twitter__tweet-container
 // 
 .twitter__tweet-container {
-  margin-top: 400px;
+  margin-top: 340px;
 }
 // twitter__tweet-list
 .twitter__tweet-list {
@@ -171,7 +170,7 @@ body {
   color: #fff;
   font-weight: 400;
   text-align: center;
-  padding: 100px 30%;
+  padding: 50px 20%;
   margin: 0;
   font-size: 1.5rem;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
