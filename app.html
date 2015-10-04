@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ten tweets</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="twitter">
+        <div class="twitter__spinner">
+            <svg width="50" height="50" viewBox="0 0 38 38" stroke="#55acee">
+                <g fill="none" fill-rule="evenodd">
+                    <g transform="translate(1 1)" stroke-width="2">
+                        <circle stroke-opacity=".5" cx="18" cy="18" r="18" />
+                        <path d="M36 18c0-9.94-8.06-18-18-18" transform="rotate(10.847 18 18)">
+                            <animateTransform attributeName="transform" type="rotate" from="0 18 18" to="360 18 18" dur="1s" repeatCount="indefinite"
+                            />
+                        </path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="twitter__search">
+            <div class="twitter__search-container">
+                <svg class="twitter__search-logo" viewBox="0 0 20 20">
+                    <path fill="none" d="M18.258,3.266c-0.693,0.405-1.46,0.698-2.277,0.857c-0.653-0.686-1.586-1.115-2.618-1.115c-1.98,0-3.586,1.581-3.586,3.53c0,0.276,0.031,0.545,0.092,0.805C6.888,7.195,4.245,5.79,2.476,3.654C2.167,4.176,1.99,4.781,1.99,5.429c0,1.224,0.633,2.305,1.596,2.938C2.999,8.349,2.445,8.19,1.961,7.925C1.96,7.94,1.96,7.954,1.96,7.97c0,1.71,1.237,3.138,2.877,3.462c-0.301,0.08-0.617,0.123-0.945,0.123c-0.23,0-0.456-0.021-0.674-0.062c0.456,1.402,1.781,2.422,3.35,2.451c-1.228,0.947-2.773,1.512-4.454,1.512c-0.291,0-0.575-0.016-0.855-0.049c1.588,1,3.473,1.586,5.498,1.586c6.598,0,10.205-5.379,10.205-10.045c0-0.153-0.003-0.305-0.01-0.456c0.7-0.499,1.308-1.12,1.789-1.827c-0.644,0.28-1.334,0.469-2.06,0.555C17.422,4.782,17.99,4.091,18.258,3.266"></path>
+                </svg>
+                <h1 class="twitter__search-headline">Get the #tweets!</h1>
+                <div class="twitter__form">
+                    <input class="twitter__search-input" aria-label="Search for twitter hashtag" type="text" placeholder="Search #hashtag"
+                    required />
+                    <button class="twitter__search-button" aria-label="Search">
+                        <svg class="twitter__search-icon" viewBox="0 0 20 20">
+                            <path fill="none" d="M19.129,18.164l-4.518-4.52c1.152-1.373,1.852-3.143,1.852-5.077c0-4.361-3.535-7.896-7.896-7.896 c-4.361,0-7.896,3.535-7.896,7.896s3.535,7.896,7.896,7.896c1.934,0,3.705-0.698,5.078-1.853l4.52,4.519 c0.266,0.268,0.699,0.268,0.965,0C19.396,18.863,19.396,18.431,19.129,18.164z M8.567,15.028c-3.568,0-6.461-2.893-6.461-6.461 s2.893-6.461,6.461-6.461c3.568,0,6.46,2.893,6.46,6.461S12.135,15.028,8.567,15.028z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="twitter__tweet-container" aria-label="Tweet list" tabindex="-1">
+        </div>
+    </div>
+    <a class="github-link" href="https://github.com/KarlLofholm/ten-tweets">
+    View on Github
+        <svg class="svg-icon" viewBox="0 0 34.152 33.309">
+            <path fill="none" d="M17.094,0.75c-8.995,0-16.289,7.293-16.289,16.29
+    c0,7.197,4.667,13.303,11.141,15.457c0.814,0.148,1.112-0.354,1.112-0.785c0-0.387-0.014-1.412-0.022-2.771
+    c-4.531,0.984-5.487-2.184-5.487-2.184c-0.741-1.881-1.809-2.383-1.809-2.383c-1.479-1.01,0.112-0.99,0.112-0.99
+    c1.635,0.115,2.495,1.68,2.495,1.68c1.453,2.488,3.812,1.77,4.741,1.354c0.148-1.053,0.569-1.771,1.034-2.178
+    c-3.617-0.412-7.42-1.809-7.42-8.051c0-1.778,0.635-3.232,1.677-4.371c-0.167-0.412-0.727-2.068,0.16-4.311
+    c0,0,1.368-0.438,4.479,1.67c1.299-0.361,2.693-0.542,4.078-0.548c1.384,0.006,2.776,0.187,4.078,0.548
+    c3.11-2.108,4.476-1.67,4.476-1.67c0.889,2.243,0.329,3.899,0.162,4.311c1.043,1.139,1.674,2.593,1.674,4.371
+    c0,6.258-3.809,7.635-7.438,8.038c0.585,0.504,1.105,1.498,1.105,3.018c0,2.178-0.02,3.934-0.02,4.469
+    c0,0.436,0.293,0.941,1.12,0.783c6.468-2.158,11.13-8.26,11.13-15.455C33.384,8.042,26.091,0.75,17.094,0.75z"
+            />
+        </svg></a>
+    <script src="js/min/main-min.js"></script>
+</body>
+
+</html>
