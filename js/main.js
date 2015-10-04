@@ -42,7 +42,7 @@ var TenTweets = function() {
     var getTweets = function(query) {
         // Start ajax call
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'get_tweets.php' + '?query=' + query);
+        xhr.open('GET', 'https://node-ten-tweets.herokuapp.com/' + query);
         // Listen to response
         xhr.onreadystatechange = function(data) {
             if (xhr.readyState == XMLHttpRequest.DONE) {
